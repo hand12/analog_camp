@@ -1,0 +1,340 @@
+/* line 45, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+html {
+  color: #444;
+}
+/* line 47, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+html body {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 52, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#header {
+  width: 100vw;
+  height: 60px;
+  border-bottom: 1px solid #e8e8e8;
+}
+/* line 57, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#header #contents {
+  width: 60%;
+  margin: 0 auto;
+}
+/* line 60, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#header #contents #left_contents {
+  display: inline-block;
+  float: left;
+}
+/* line 63, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#header #contents #left_contents .title {
+  color: #00d1c1;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 60px;
+}
+/* line 70, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#header #contents #right_contents {
+  display: inline-block;
+  float: right;
+}
+/* line 73, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#header #contents #right_contents .flex_box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+}
+/* line 79, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#header #contents #right_contents .flex_box .content {
+  box-sizing: border-box;
+  border-radius: 2.5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  color: white;
+}
+/* line 87, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#header #contents #right_contents .flex_box .login {
+  background-color: #00d1c1;
+}
+/* line 90, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#header #contents #right_contents .flex_box .signup {
+  background-color: #61ace5;
+}
+/* line 93, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#header #contents #right_contents .flex_box .new {
+  background-color: #00d1c1;
+}
+/* line 95, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#header #contents #right_contents .flex_box .new a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 105, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#top-view {
+  width: 100vw;
+  height: 500px;
+  background-image: url("city-picture.jpg");
+  background-position: center -180px;
+  background-size: cover;
+  box-shadow: 0 1px 2px 1px #999;
+  position: relative;
+}
+/* line 115, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#top-view .contents {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+}
+/* line 119, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#top-view .contents .messagebox {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 50px;
+  box-sizing: border-box;
+  opacity: 0.8;
+  background-color: #00d1c1;
+}
+/* line 130, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#top-view .contents .messagebox .title {
+  padding-top: 100px;
+  font-size: 72px;
+  color: white;
+  font-weight: bold;
+}
+/* line 137, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#top-view .contents .messagebox .detail {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+/* line 143, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#top-view .contents .messagebox .button {
+  border-radius: 2.5px;
+  background-color: #61ace5;
+  color: white;
+  font-size: 26px;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+  padding: 10px 15px;
+  border-bottom: 2px solid #3595de;
+  box-shadow: 0 2px 2px -2px #666;
+}
+/* line 30, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#top-view .contents .messagebox .button:hover {
+  transform: translateY(2px);
+  border-bottom: 2px solid #61ace5;
+  cursor: pointer;
+}
+
+/* line 150, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents {
+  width: 100vw;
+}
+/* line 152, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+}
+/* line 157, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .flex-box {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+/* line 164, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .flex-box .item {
+  box-sizing: border-box;
+  padding: 20px;
+}
+/* line 167, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .flex-box .item .f-title {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px;
+}
+/* line 173, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .flex-box .item .f-image-box {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+/* line 177, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .flex-box .item .f-image-box img {
+  width: 100%;
+  height: auto;
+}
+/* line 182, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .flex-box .item .f-detail {
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  line-height: 24px;
+}
+/* line 187, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .title {
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 100px;
+}
+/* line 193, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .detail {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  line-height: 24px;
+}
+/* line 198, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .button {
+  border-radius: 2.5px;
+  background-color: #61ace5;
+  color: white;
+  font-size: 26px;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+  padding: 10px 15px;
+  border-bottom: 2px solid #3595de;
+  box-shadow: 0 2px 2px -2px #666;
+  width: 300px;
+}
+/* line 30, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .button:hover {
+  transform: translateY(2px);
+  border-bottom: 2px solid #61ace5;
+  cursor: pointer;
+}
+/* line 202, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .articles {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 60%;
+  list-style: none;
+}
+/* line 207, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .articles .article {
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #b5b5b5;
+  transition: 0.2s;
+}
+/* line 38, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .articles .article:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+/* line 214, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .articles .article:hover {
+  cursor: pointer;
+  background-color: #e6e6e6;
+}
+/* line 218, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .articles .article .a-image-box {
+  display: inline-block;
+  float: left;
+  box-sizing: border-box;
+  width: 20%;
+  height: 20%;
+  overflow: hidden;
+}
+/* line 226, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .articles .article .a-image-box img {
+  width: 100%;
+  height: auto;
+}
+/* line 231, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .articles .article .a-heading {
+  display: inline-block;
+  float: left;
+  box-sizing: border-box;
+  width: 80%;
+  padding: 0 20px;
+}
+/* line 237, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .articles .article .a-heading .a-title {
+  font-size: 18px;
+  font-weight: bolder;
+}
+/* line 241, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .articles .article .a-heading .a-detail {
+  font-size: 16px;
+  padding-top: 10px;
+}
+/* line 248, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .new-form {
+  width: 60vw;
+  box-sizing: border-box;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 2.5px;
+  border: 1px solid #e8e8e8;
+  text-align: center;
+}
+/* line 256, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .new-form input {
+  padding: 10px;
+  font-size: 20px;
+  width: 50%;
+  border: none;
+  margin-bottom: 50px;
+  background-color: #e6e6e6;
+}
+/* line 263, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .new-form input:focus {
+  outline: 0;
+}
+/* line 267, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .new-form textarea {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #e6e6e6;
+}
+/* line 273, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .new-form textarea:focus {
+  outline: 0;
+}
+/* line 277, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .new-form input[type=submit] {
+  box-sizing: border-box;
+  border-radius: 2.5px;
+  background-color: #00d1c1;
+  color: white;
+  font-size: 26px;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+  padding: 10px 15px;
+  border-bottom: 2px solid #009e92;
+  box-shadow: 0 2px 2px -2px #666;
+}
+/* line 30, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .content .new-form input[type=submit]:hover {
+  transform: translateY(2px);
+  border-bottom: 2px solid #00d1c1;
+  cursor: pointer;
+}
+/* line 283, /Users/200395/projects/etc/SampleAppKauru/app/assets/stylesheets/articles.scss */
+#contents .light-background-color-sub {
+  background-color: #e4f1fb;
+}
